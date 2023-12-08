@@ -1,0 +1,13 @@
+server:
+  port: 8091
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3308/wms1?useUnicode=true&characterEncoding=UTF8&useSSL=false
+    username: root
+    password: 123456
+
+  spring:
+    mvc:
+      servlet:
+        load-on-startup: 1
